@@ -1,5 +1,7 @@
 # MarketPulse
 
+[![CI](https://github.com/abinxv/MarketPulse/actions/workflows/ci.yml/badge.svg)](https://github.com/abinxv/MarketPulse/actions/workflows/ci.yml)
+
 MarketPulse is an AI research assistant over SEC filings, stock prices and news
 sentiment. Ask a question such as "What changed in Tesla's risk factors last
 quarter and how did the stock react?" and it retrieves evidence from filings,

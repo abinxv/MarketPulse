@@ -107,7 +107,27 @@ CLAUDE.md
 README.md
 ```
 
-## 10-day roadmap
+## Revised roadmap (replanned Nov 24)
+
+Day 0 was finished on Nov 15; Days 1–8 slipped. This is the 7-day plan to
+Dec 1. It follows the original cut order: news sentiment, filing diffs,
+unexplained moves and the scheduler move to after Dec 1. Evals and the citation
+check stay in.
+
+| Date | Scope | User writes |
+|---|---|---|
+| Nov 24 | `.env` + AAPL download, GitHub + CI, HTML cleaning + section splitting, ingest 10-K/10-Q for ~10 tickers, prices | DB schema |
+| Nov 25 | Chunks, embeddings, full-text index | Chunker |
+| Nov 26 | Hybrid search, ~30 eval questions, recall@5 | RRF + recall@k |
+| Nov 27 | Cited answers + citation-accuracy metric | Citation checker |
+| Nov 28 | Agent with 3 tools: `search_documents`, `get_prices`, `price_reaction` | Agent loop |
+| Nov 29 | FastAPI, Streamlit + Plotly chart, Docker | — |
+| Nov 30 | Deploy, README + diagram, demo GIF, full eval run | — |
+| After Dec 1 | News, sentiment baseline vs FinBERT, `compare_filings`, live news, unexplained moves, scheduler | Sentiment baseline, unexplained-move logic |
+
+Workflow: one branch and one pull request per day; CI runs pytest on every PR.
+
+## Original 10-day roadmap
 
 | Day | Date | Scope |
 |---|---|---|

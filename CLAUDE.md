@@ -32,4 +32,6 @@ Streamlit, Docker.
 
 ## Current status
 
-Day 0 in progress.
+Day 0 done (Nov 15). Replanned Nov 24 to a 7-day plan (see "Revised roadmap"
+in docs/PLAN.md). Nov 24 (Day 1: ingestion + schema) in progress on branch
+`day1-ingestion`.
